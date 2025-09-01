@@ -15,7 +15,7 @@ const userLocation = document.getElementById("userLocation"),
     forecast = document.querySelector(".forecast"),
     converter = document.querySelector(".converter");
 
-const API_KEY = "4051bedbd2e080a8272d614708988e54";
+const API_KEY = "INSERT YOUR API";
 const WEATHER_API = `https://api.openweathermap.org/data/2.5/weather?appid=${API_KEY}&units=metric&q=`;
 const FORECAST_API = `https://api.openweathermap.org/data/2.5/forecast?appid=${API_KEY}&units=metric&q=`;
 
@@ -127,3 +127,4 @@ function TempConverter(temp) {
         return `${Math.round(ctof)}<span>°F</span>`;
     }
 }
+
